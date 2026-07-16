@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="多智能体报告生成系统" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Multi-Agent Report Generator</title>
+    <style>
+      /* 全局移动端优化 */
+      * {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      body {
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* 移动端全局样式 */
+      @media (max-width: 767px) {
+        /* antd 组件移动端优化 */
+        .ant-card-body {
+          padding: 12px !important;
+        }
+
+        .ant-card-head {
+          padding: 0 12px !important;
+          min-height: 40px !important;
+        }
+
+        .ant-card-head-title {
+          padding: 8px 0 !important;
+          font-size: 14px !important;
+        }
+
+        .ant-form-item {
+          margin-bottom: 12px !important;
+        }
+
+        .ant-form-item-label {
+          padding: 0 0 4px !important;
+        }
+
+        .ant-form-item-label > label {
+          font-size: 13px !important;
+        }
+
+        .ant-input,
+        .ant-input-affix-wrapper,
+        .ant-select-selector,
+        .ant-picker {
+          font-size: 16px !important; /* 防止 iOS 自动缩放 */
+        }
+
+        .ant-btn {
+          font-size: 14px !important;
+        }
+
+        .ant-btn-sm {
+          font-size: 12px !important;
+          padding: 0 8px !important;
+        }
+
+        .ant-table {
+          font-size: 13px !important;
+        }
+
+        .ant-modal {
+          max-width: 90vw !important;
+          margin: 0 auto !important;
+        }
+
+        .ant-modal-content {
+          padding: 12px !important;
+        }
+
+        .ant-drawer-body {
+          padding: 12px !important;
+        }
+
+        /* 滚动条优化 */
+        ::-webkit-scrollbar {
+          width: 4px;
+          height: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+          background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background: #d9d9d9;
+          border-radius: 2px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

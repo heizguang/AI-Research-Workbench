@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-06 18:35:00",
+    "total_cases": 80,
+    "accuracy": 0.9625,
+    "precision": 1.0,
+    "recall": 0.88,
+    "f1": 0.9361702127659575,
+    "avg_latency": 4.7570133179426195
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "人工智能",
+      "question": "2026年有哪些主要的大语言模型？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告详细介绍了GPT-5、Claude 4、Gemini 3.0等模型",
+      "latency": 6.586412191390991
+    },
+    {
+      "id": 2,
+      "category": "人工智能",
+      "question": "AI Agent的主要落地场景有哪些？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确列出了企业级Agent、个人助理Agent、开发Agent三个场景",
+      "latency": 7.397357702255249
+    },
+    {
+      "id": 3,
+      "category": "人工智能",
+      "question": "Sora 2视频生成模型的技术架构是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到Sora 2存在，未解释其技术架构",
+      "latency": 4.6950507164001465
+    },
+    {
+      "id": 4,
+      "category": "人工智能",
+      "question": "2026年全球AI市场规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供市场规模数据",
+      "latency": 4.7048704624176025
+    },
+    {
+      "id": 5,
+      "category": "人工智能",
+      "question": "开源模型和闭源模型的性能差距有多大？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'已接近'，未给出具体差距数据",
+      "latency": 5.414502382278442
+    },
+    {
+      "id": 6,
+      "category": "人工智能",
+      "question": "欧盟《AI法案》对高风险AI应用有哪些具体要求？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到法案执行，未详述具体要求",
+      "latency": 4.060400009155273
+    },
+    {
+      "id": 7,
+      "category": "人工智能",
+      "question": "苹果的Apple Intelligence 2.0有哪些新功能？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到Apple Intelligence 2.0存在，未详述新功能",
+      "latency": 4.823755502700806
+    },
+    {
+      "id": 8,
+      "category": "人工智能",
+      "question": "DeepSeek-V4在哪些任务上超越了闭源模型？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'在数学推理和代码生成任务上超越了多数闭源模型'",
+      "latency": 3.523030996322632
+    },
+    {
+      "id": 9,
+      "category": "新能源汽车",
+      "question": "2026年中国新能源汽车销量是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'全年销量达到1800万辆'",
+      "latency": 4.065166473388672
+    },
+    {
+      "id": 10,
+      "category": "新能源汽车",
+      "question": "比亚迪2026年海外销量是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'海外销量突破150万辆'",
+      "latency": 3.3401787281036377
+    },
+    {
+      "id": 11,
+      "category": "新能源汽车",
+      "question": "固态电池的能量密度提升了多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'能量密度提升50%'",
+      "latency": 4.343478441238403
+    },
+    {
+      "id": 12,
+      "category": "新能源汽车",
+      "question": "特斯拉Model Y的具体配置参数是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到Model Y是销量冠军，未提供配置参数",
+      "latency": 4.991057872772217
+    },
+    {
+      "id": 13,
+      "category": "新能源汽车",
+      "question": "蔚来换电站的运营成本是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到换电站数量，未提供运营成本数据",
+      "latency": 4.210979700088501
+    },
+    {
+      "id": 14,
+      "category": "新能源汽车",
+      "question": "2026年全球新能源汽车市场规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到中国市场的全球占比，未提供全球市场规模",
+      "latency": 6.653663396835327
+    },
+    {
+      "id": 15,
+      "category": "新能源汽车",
+      "question": "城市NOA和高速NOA有什么区别？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到两者都已实现，未解释区别",
+      "latency": 3.8826982975006104
+    },
+    {
+      "id": 16,
+      "category": "新能源汽车",
+      "question": "磷酸铁锂电池的市场份额是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'市场份额超过80%'",
+      "latency": 4.293972015380859
+    },
+    {
+      "id": 17,
+      "category": "半导体",
+      "question": "2026年全球半导体市场规模是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'达到8500亿美元'",
+      "latency": 3.6670615673065186
+    },
+    {
+      "id": 18,
+      "category": "半导体",
+      "question": "NVIDIA数据中心收入是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过800亿美元'",
+      "latency": 4.732129335403442
+    },
+    {
+      "id": 19,
+      "category": "半导体",
+      "question": "台积电2nm工艺的良率是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'成熟量产'，未提供具体良率数据",
+      "latency": 4.647019386291504
+    },
+    {
+      "id": 20,
+      "category": "半导体",
+      "question": "华为麒麟9100芯片的具体技术参数是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到芯片回归和工艺，未提供详细技术参数",
+      "latency": 4.336713075637817
+    },
+    {
+      "id": 21,
+      "category": "半导体",
+      "question": "HBM4芯片的技术原理是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到HBM4需求增长，未解释技术原理",
+      "latency": 4.043546438217163
+    },
+    {
+      "id": 22,
+      "category": "半导体",
+      "question": "美国对华出口管制对中国半导体产业的影响有多大？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到管制措施，未量化影响",
+      "latency": 8.587488889694214
+    },
+    {
+      "id": 23,
+      "category": "半导体",
+      "question": "2027年全球半导体市场预测是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供2027年预测数据",
+      "latency": 5.455785751342773
+    },
+    {
+      "id": 24,
+      "category": "半导体",
+      "question": "中芯国际5nm工艺的产能是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'取得突破'，未提供产能数据",
+      "latency": 5.730432510375977
+    },
+    {
+      "id": 25,
+      "category": "医疗健康",
+      "question": "中国有多少款国产PD-1药物获批上市？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过20款'",
+      "latency": 4.449683427810669
+    },
+    {
+      "id": 26,
+      "category": "医疗健康",
+      "question": "百利天恒BL-B01D1授权金额是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'120亿美元'",
+      "latency": 5.451453447341919
+    },
+    {
+      "id": 27,
+      "category": "医疗健康",
+      "question": "PD-1抑制剂的作用机制是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到药物存在，未解释作用机制",
+      "latency": 4.117498159408569
+    },
+    {
+      "id": 28,
+      "category": "医疗健康",
+      "question": "CAR-T疗法的治疗费用是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供治疗费用数据",
+      "latency": 4.099009990692139
+    },
+    {
+      "id": 29,
+      "category": "医疗健康",
+      "question": "联影医疗的PET-CT设备技术参数是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到市场份额，未提供技术参数",
+      "latency": 4.7580554485321045
+    },
+    {
+      "id": 30,
+      "category": "医疗健康",
+      "question": "AI影像诊断的准确率是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'准确率超过95%'",
+      "latency": 3.9952800273895264
+    },
+    {
+      "id": 31,
+      "category": "医疗健康",
+      "question": "2026年中国医疗健康行业市场规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供市场规模数据",
+      "latency": 4.148888349533081
+    },
+    {
+      "id": 32,
+      "category": "医疗健康",
+      "question": "平安好医生的用户规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'持续增长'，未提供具体数字",
+      "latency": 5.004404067993164
+    },
+    {
+      "id": 33,
+      "category": "金融科技",
+      "question": "数字人民币试点城市有多少个？",
+      "expected": "能",
+      "actual": "不能",
+      "correct": false,
+      "reason": "报告明确说'全国所有地级市'",
+      "latency": 4.363351821899414
+    },
+    {
+      "id": 34,
+      "category": "金融科技",
+      "question": "2026年数字人民币累计交易金额是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过30万亿元'",
+      "latency": 3.8145039081573486
+    },
+    {
+      "id": 35,
+      "category": "金融科技",
+      "question": "数字人民币的技术架构是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到应用场景，未解释技术架构",
+      "latency": 4.499310255050659
+    },
+    {
+      "id": 36,
+      "category": "金融科技",
+      "question": "工行大模型客服的准确率是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'引入大模型'，未提供准确率数据",
+      "latency": 5.942940711975098
+    },
+    {
+      "id": 37,
+      "category": "金融科技",
+      "question": "联邦学习是如何保护隐私的？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到联邦学习应用，未解释隐私保护机制",
+      "latency": 4.534426927566528
+    },
+    {
+      "id": 38,
+      "category": "金融科技",
+      "question": "AI定损的具体算法是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到AI定损效果，未解释算法细节",
+      "latency": 4.575342178344727
+    },
+    {
+      "id": 39,
+      "category": "金融科技",
+      "question": "2026年中国金融科技行业融资规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供融资数据",
+      "latency": 3.629591464996338
+    },
+    {
+      "id": 40,
+      "category": "金融科技",
+      "question": "RPA在银行的应用场景有哪些？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'后台自动化率超过80%'，未列举具体场景",
+      "latency": 5.514090538024902
+    },
+    {
+      "id": 41,
+      "category": "教育",
+      "question": "2026年中国在线教育市场规模是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'达到8000亿元'",
+      "latency": 3.3479912281036377
+    },
+    {
+      "id": 42,
+      "category": "教育",
+      "question": "K12在线教育的市场规模占比是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'占比37.5%'",
+      "latency": 4.778679132461548
+    },
+    {
+      "id": 43,
+      "category": "教育",
+      "question": "AI家教系统的技术架构是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到AI家教存在，未解释技术架构",
+      "latency": 4.571518898010254
+    },
+    {
+      "id": 44,
+      "category": "教育",
+      "question": "自适应学习的算法原理是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'根据学生水平自动调整'，未解释算法",
+      "latency": 4.805148363113403
+    },
+    {
+      "id": 45,
+      "category": "教育",
+      "question": "步步高学习平板的具体型号和价格是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到品牌，未提供型号和价格",
+      "latency": 3.8925135135650635
+    },
+    {
+      "id": 46,
+      "category": "教育",
+      "question": "教育机器人的主要技术难点是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到市场规模，未讨论技术难点",
+      "latency": 5.041488885879517
+    },
+    {
+      "id": 47,
+      "category": "教育",
+      "question": "2026年教育科技行业融资规模是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供融资数据",
+      "latency": 3.941537618637085
+    },
+    {
+      "id": 48,
+      "category": "教育",
+      "question": "智能笔的手写识别技术原理是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到识别率，未解释技术原理",
+      "latency": 4.786120414733887
+    },
+    {
+      "id": 49,
+      "category": "环境保护",
+      "question": "2026年中国碳排放总量是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'约为105亿吨'",
+      "latency": 3.563260316848755
+    },
+    {
+      "id": 50,
+      "category": "环境保护",
+      "question": "全国碳市场年交易额是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过500亿元'",
+      "latency": 5.034894227981567
+    },
+    {
+      "id": 51,
+      "category": "环境保护",
+      "question": "碳捕捉技术(CCS)的发展情况如何？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提及碳捕捉技术",
+      "latency": 5.079715251922607
+    },
+    {
+      "id": 52,
+      "category": "环境保护",
+      "question": "钙钛矿电池的技术原理是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到钙钛矿电池商业化，未解释技术原理",
+      "latency": 3.518986225128174
+    },
+    {
+      "id": 53,
+      "category": "环境保护",
+      "question": "海上风电的建设成本是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到沿海省份布局，未提供成本数据",
+      "latency": 6.038700103759766
+    },
+    {
+      "id": 54,
+      "category": "环境保护",
+      "question": "PM2.5对人体健康有什么危害？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到PM2.5浓度数据，未讨论健康危害",
+      "latency": 3.9880905151367188
+    },
+    {
+      "id": 55,
+      "category": "环境保护",
+      "question": "2027年中国碳排放目标是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供2027年目标数据",
+      "latency": 3.9009602069854736
+    },
+    {
+      "id": 56,
+      "category": "环境保护",
+      "question": "锂电池储能的安全性问题如何解决？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到成本数据，未讨论安全性问题",
+      "latency": 4.333346605300903
+    },
+    {
+      "id": 57,
+      "category": "航空航天",
+      "question": "2026年中国航天发射次数是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'达到100次'",
+      "latency": 5.915257930755615
+    },
+    {
+      "id": 58,
+      "category": "航空航天",
+      "question": "北斗产业规模是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过8000亿元'",
+      "latency": 4.817981958389282
+    },
+    {
+      "id": 59,
+      "category": "航空航天",
+      "question": "长征五号火箭的技术参数是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到长征五号存在，未提供技术参数",
+      "latency": 4.407163619995117
+    },
+    {
+      "id": 60,
+      "category": "航空航天",
+      "question": "天宫空间站的建造成本是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供成本数据",
+      "latency": 3.939314603805542
+    },
+    {
+      "id": 61,
+      "category": "航空航天",
+      "question": "北斗导航系统的定位精度是多少？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供定位精度数据",
+      "latency": 5.356135845184326
+    },
+    {
+      "id": 62,
+      "category": "航空航天",
+      "question": "嫦娥七号在月球南极的具体探测目标是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'月球南极着陆探测'，未提供具体目标",
+      "latency": 6.335959196090698
+    },
+    {
+      "id": 63,
+      "category": "航空航天",
+      "question": "载人火星探测的技术难点是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'开展关键技术攻关'，未讨论具体难点",
+      "latency": 4.755207061767578
+    },
+    {
+      "id": 64,
+      "category": "航空航天",
+      "question": "2027年中国航天发射计划是多少次？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供2027年计划数据",
+      "latency": 6.263932943344116
+    },
+    {
+      "id": 65,
+      "category": "人工智能",
+      "question": "什么是RAG技术？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确解释了RAG的定义",
+      "latency": 4.756888389587402
+    },
+    {
+      "id": 66,
+      "category": "人工智能",
+      "question": "RAG有哪些核心技术？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告列出了文档处理、向量检索、生成优化三个核心技术",
+      "latency": 4.68697714805603
+    },
+    {
+      "id": 67,
+      "category": "人工智能",
+      "question": "向量数据库有哪些？",
+      "expected": "能",
+      "actual": "不能",
+      "correct": false,
+      "reason": "报告明确列出了Milvus、FAISS、Pinecone",
+      "latency": 7.4171812534332275
+    },
+    {
+      "id": 68,
+      "category": "人工智能",
+      "question": "RAG和微调有什么区别？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未讨论RAG和微调的区别",
+      "latency": 4.375672101974487
+    },
+    {
+      "id": 69,
+      "category": "人工智能",
+      "question": "Embedding模型的训练方法是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到使用Embedding模型，未讨论训练方法",
+      "latency": 4.55971360206604
+    },
+    {
+      "id": 70,
+      "category": "人工智能",
+      "question": "RAG系统如何处理多语言文档？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未讨论多语言处理",
+      "latency": 5.009036540985107
+    },
+    {
+      "id": 71,
+      "category": "人工智能",
+      "question": "RAG系统的准确率如何评估？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未讨论评估方法",
+      "latency": 4.6036155223846436
+    },
+    {
+      "id": 72,
+      "category": "人工智能",
+      "question": "RAG技术的局限性是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未讨论局限性",
+      "latency": 3.8203296661376953
+    },
+    {
+      "id": 73,
+      "category": "金融科技",
+      "question": "2026年中国数字藏品市场规模是多少？",
+      "expected": "能",
+      "actual": "能",
+      "correct": true,
+      "reason": "报告明确说'超过300亿元'",
+      "latency": 5.004743576049805
+    },
+    {
+      "id": 74,
+      "category": "金融科技",
+      "question": "蚂蚁链有哪些应用场景？",
+      "expected": "能",
+      "actual": "不能",
+      "correct": false,
+      "reason": "报告明确说'供应链金融、数字版权等'",
+      "latency": 5.38057804107666
+    },
+    {
+      "id": 75,
+      "category": "金融科技",
+      "question": "以太坊PoS转型的技术细节是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'完成转型'，未讨论技术细节",
+      "latency": 4.882123708724976
+    },
+    {
+      "id": 76,
+      "category": "金融科技",
+      "question": "零知识证明的工作原理是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到零知识证明应用，未解释原理",
+      "latency": 3.2922277450561523
+    },
+    {
+      "id": 77,
+      "category": "金融科技",
+      "question": "区块链TPS瓶颈如何解决？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'难以满足'，未讨论解决方案",
+      "latency": 3.790917158126831
+    },
+    {
+      "id": 78,
+      "category": "金融科技",
+      "question": "数字藏品的法律属性是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只说'明确法律属性'，未提供具体内容",
+      "latency": 4.843325138092041
+    },
+    {
+      "id": 79,
+      "category": "金融科技",
+      "question": "2027年区块链技术发展趋势是什么？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告未提供2027年趋势预测",
+      "latency": 4.777584075927734
+    },
+    {
+      "id": 80,
+      "category": "金融科技",
+      "question": "跨境贸易区块链应用有哪些成功案例？",
+      "expected": "不能",
+      "actual": "不能",
+      "correct": true,
+      "reason": "报告只提到应用场景，未提供具体案例",
+      "latency": 5.861664533615112
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 自定义样式 */
+.app-container {
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* 报告样式 */
+.report-content {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.report-content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1890ff;
+}
+
+.report-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.report-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.report-content p {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.report-content ul,
+.report-content ol {
+  margin-bottom: 12px;
+  padding-left: 24px;
+}
+
+.report-content li {
+  margin-bottom: 8px;
+}
+
+.report-content code {
+  background-color: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.report-content pre {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.report-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.report-content blockquote {
+  border-left: 4px solid #1890ff;
+  padding-left: 16px;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* 聊天样式 */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 200px);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 12px;
+}
+
+.chat-input textarea {
+  flex: 1;
+}
+
+/* 搜索结果样式 */
+.search-results {
+  margin-top: 16px;
+}
+
+.search-result-item {
+  padding: 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.search-result-item:hover {
+  border-color: #1890ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-result-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1890ff;
+  margin-bottom: 8px;
+}
+
+.search-result-url {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+.search-result-snippet {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* 文件上传样式 */
+.upload-area {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  background-color: #fafafa;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.upload-area:hover {
+  border-color: #1890ff;
+  background-color: #e6f7ff;
+}
+
+.upload-area.dragging {
+  border-color: #1890ff;
+  background-color: #e6f7ff;
+}
+
+/* PPT预览样式 */
+.ppt-preview {
+  background-color: #f5f5f5;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.ppt-slide {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ppt-slide-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #1890ff;
+}
+
+.ppt-slide-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.ppt-slide-content li {
+  margin-bottom: 8px;
+}
+
+/* 历史记录样式 */
+.history-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.history-item {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.history-item:hover {
+  background-color: #f5f5f5;
+}
+
+.history-item-question {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.history-item-answer {
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-item-time {
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
