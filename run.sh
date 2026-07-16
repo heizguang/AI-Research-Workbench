@@ -107,26 +107,32 @@ kill_port() {
 setup_env() {
     echo -e "${GREEN}[0/4] 检测 Python 环境...${NC}"
 
-    # 优先使用 venv
-    if [ -d "$VENV_DIR" ] && [ -f "$VENV_DIR/bin/activate" ]; then
+    # 检测 venv 是 conda 创建的还是标准 venv
+    if [ -d "$VENV_DIR" ] && [ -d "$VENV_DIR/conda-meta" ]; then
+        # conda 创建的环境（有 conda-meta 目录）
+        ENV_TYPE="conda-venv"
+        echo -e "${GREEN}      检测到 conda 环境: $VENV_DIR${NC}"
+        # 初始化 conda 并激活
+        eval "$(conda shell.bash hook 2>/dev/null)" || true
+        conda activate "$VENV_DIR" 2>/dev/null || {
+            echo -e "${YELLOW}      conda activate 失败，尝试 source activate...${NC}"
+            source "$VENV_DIR/bin/activate" 2>/dev/null || true
+        }
+    elif [ -d "$VENV_DIR" ] && [ -f "$VENV_DIR/bin/activate" ]; then
+        # 标准 venv
         ENV_TYPE="venv"
         echo -e "${GREEN}      使用 venv 环境: $VENV_DIR${NC}"
         source "$VENV_DIR/bin/activate"
-    # venv 目录存在但已损坏 → 删除重建
     elif [ -d "$VENV_DIR" ]; then
-        echo -e "${YELLOW}      venv 已损坏，重新创建...${NC}"
+        # 目录存在但不完整 → 删除重建
+        echo -e "${YELLOW}      环境已损坏，重新创建...${NC}"
         rm -rf "$VENV_DIR"
         python3 -m venv "$VENV_DIR" 2>/dev/null || python -m venv "$VENV_DIR"
         ENV_TYPE="venv"
         echo -e "${GREEN}      venv 创建成功${NC}"
         source "$VENV_DIR/bin/activate"
-    # 其次尝试 conda
-    elif command -v conda &> /dev/null && conda env list 2>/dev/null | grep -q "multi-agent"; then
-        ENV_TYPE="conda"
-        echo -e "${GREEN}      使用 conda 环境: multi-agent${NC}"
-        source activate multi-agent 2>/dev/null || conda activate multi-agent 2>/dev/null || true
-    # 都没有则创建 venv
     else
+        # 不存在 → 创建标准 venv
         echo -e "${YELLOW}      未找到 Python 环境，正在创建 venv...${NC}"
         python3 -m venv "$VENV_DIR" 2>/dev/null || python -m venv "$VENV_DIR"
         if [ $? -ne 0 ]; then
